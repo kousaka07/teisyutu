@@ -3,8 +3,21 @@
 
 >6月4日
 
+ウィジェットいろいろ
 ```
+AppBarのプロパティ
+title: タイトル、基本はテキスト
+leading:  左端、ボタンやアイコン
+action: 右側、ボタンアイコンなどのリスト
+bottom: 上記の下に追加表示
 
+ListTile(
+    leading:  ,                <表示するアイコン
+    title:  ,                  <内容
+    selected: bool値 ,         <選択状態
+    on Tap: 関数,              <クリックされたときのイベント処理
+    onLongPress: 関数          <ロングクリックされたときのイベント処理
+    )
 ```
 
 ***
