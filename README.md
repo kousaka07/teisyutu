@@ -1,9 +1,27 @@
 # 学んだことまとめ
 
+>6月24~25日
+
+ファイルアクセス
+```
+ファイルを扱うにはFileというクラスを利用する
+
+ファイルへ書き出す　writeAsString
+    Future<File> writeAsString( [String] );
+    同期処理で実行させたいときは
+    void writeAsStringSync( [String] );
+ファイルから読み込み readAsString
+    try {
+        変数 = [File].readAsString();
+    } catch (e) {}
+    
+```
+
 >6月10~11日
 
 ToDoアプリを作る
 ```
+リスト4-7を応用して作る
 アイコン等を追加するときはbody内に書く（サイズ、色など）
 押したときの処理等はそのいろいろ下のほうにかく
 ```
